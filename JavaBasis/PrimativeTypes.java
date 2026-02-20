@@ -22,8 +22,13 @@ public class PrimativeTypes {
         // 数组类型
         int[] arr = { 1, 2, 3, 4, 5 }; // 声明并初始化一个整数数组简化版
         int[] arr2 = new int[5]; // 声明一个长度为5的整数数组
-        int[] arr3 = new int[]{ 1, 2, 3, 4, 5 }; // 声明并初始化一个整数数组完整版
+        int[] arr3 = new int[] { 1, 2, 3, 4, 5 }; // 声明并初始化一个整数数组完整版
         
+        // 字符串类型
+        String str1 = "Hello, World!"; // 字符串类型（虽然不是基本类型，但常用）
+        String str2 = "Hello" + "," + " World!"; //字符串对象
+        
+
         System.out.println("byte: " + b);
         System.out.println("short: " + s);
         System.out.println("int: " + i);
@@ -40,9 +45,10 @@ public class PrimativeTypes {
         }
 
         System.out.println(Arrays.toString(arr2)); // 输出 arr2 的内容，默认值为0
-
         System.out.println("arr3 length: " + arr3.length); // 输出 arr3 的长度
         
+        System.out.println("str1: " + str1);
+        System.out.println("str2: " + str2);
     }
     
 }
