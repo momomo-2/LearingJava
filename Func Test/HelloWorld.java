@@ -8,6 +8,8 @@ class HelloWorld{
         System.out.println(true || false); // 逻辑或
         System.out.println(!true); // 逻辑非
 
+
+        // if-else 语句
         int x = 10;
         if (x > 5) {
             System.out.println("x is greater than 5");
@@ -17,13 +19,19 @@ class HelloWorld{
             System.out.println("x is less than 5");
         }
         
+
+        // switch 表达式
+        switch (x) {
+            case 10 -> System.out.println("x is 10");
+            case 5 -> System.out.println("x is 5");
+            default -> System.out.println("x is neither 10 nor 5");
+        }
+
         switch (x) {
             case 10:
                 System.out.println("x is 10");
-                break;
             case 5:
                 System.out.println("x is 5");
-                break;
             default:
                 System.out.println("x is neither 10 nor 5");
         }
@@ -32,11 +40,20 @@ class HelloWorld{
             System.out.println("i = " + i);
         }
         
-        int count = 0;
-        while (count < 5) {
-            System.out.println("count = " + count);
-            count++;
+
+        // while 循环和 do-while 循环
+        int count1 = 0;
+        while (count1 < 5) {
+            System.out.println("count1 = " + count1);
+            count1++;
         }
+        
+        int count2 = 0;
+        do {
+            System.out.println("count2 = " + count2);
+            count2++;
+        } while (count2 < 5);
+
 
         
     }
