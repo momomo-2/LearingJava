@@ -1,4 +1,5 @@
 class printarray {
+    @SuppressWarnings("unused")
     int[] arr = new int[5]; //定义一个成员变量arr，类型为int数组，并初始化为长度为5的数组，并且将其访问权限设置为默认，表示可以在同一包内访问
 
     //private int[] arr = new int[5]; 定义一个成员变量arr，类型为int数组，并初始化为长度为5的数组，并且将其访问权限设置为private，表示只能在printarray类内部访问
